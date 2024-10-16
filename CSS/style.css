@@ -1,0 +1,151 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f3f2cf;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+    width: 90%;
+    margin: 0 auto;  /* 確保與主圖對齊 */
+}
+
+.header-title {
+    font-weight: 900;
+    font-size: 44px;
+    color: #778A50;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.LOGIN-JOIN {
+    display: flex;
+    gap: 10px;
+}
+
+.LOGIN, .JOIN {
+    padding: 5px 10px;
+    border: 1px solid #778A50;
+    background-color: #f3f2cf;
+    text-decoration: none;
+    color: #778A50;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #778A50;
+    padding: 8px 0;
+    width: 90%;
+    margin: 0 auto;  /* 確保與主圖對齊 */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;  /* 左對齊導覽欄文字 */
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f3f2cf;
+    font-weight: 700;
+    padding: 5px 15px;
+    background-color: #778A50;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #8c9f70;
+}
+
+.main-image {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.vegetables, .contact {
+    width: 48%;
+}
+
+.content-header h2 {
+    background-color: #778A50;
+    color: #f3f2cf;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 30%;
+    height: auto;
+}
+
+.contact-info {
+    background-color: #F7FBDA !important;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+/* Horizontal Line Between Contact Information */
+.contact-info hr {
+    border: none; /* 移除默認的邊框樣式 */
+    border-top: 1px solid #778A50; /* 使用設計指南中的 primary 顏色 */
+    margin: 10px 0; /* 添加垂直距離以適當分隔兩段內容 */
+}
+
+footer {
+    background-color: #778A50;
+    text-align: center;
+    padding: 20px;
+    color: #f3f2cf;
+    margin-top: 20px;
+}
